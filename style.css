@@ -1,16 +1,12 @@
 /* font-family: 'Abril Fatface', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
-
-body{
+html,body{
   background-color: white;
+  margin: 0;
+  padding: 0;
 }
 
-figcaption{
-  font-family: 'Montserrat', sans-serif;
-  color:black;
-  font-weight: bold;
-}
 /* header */
 .header{
 padding:0 3rem;
@@ -20,6 +16,7 @@ padding:0 3rem;
 .left{
   float:left;
   padding:0 1.5rem;
+  margin-left: 3rem;
 
 }
 
@@ -31,7 +28,7 @@ padding:0 3rem;
 .year-style-current{
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  border-bottom: 4px solid #D97B29;
+  border-bottom: 4px solid #db545a;
   display: inline;
 }
 
@@ -40,29 +37,33 @@ padding:0 3rem;
   font-family: 'Abril Fatface', cursive;
   font-size: 3.5rem;
   color: black;
+  margin: 2rem auto 3rem;
 }
+
 .description{
   width:500px;
-  height:100px;
+  height:110px;
   padding-left: 1.5rem;
   text-align: justify;
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
-  border-left: 4px solid #D97B29;
+  border-left: 4px solid #db545a;
   color:grey;
 }
 
 a:link, a:visited{
   text-decoration: none;
-  color: grey;
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
+  color:black;
+
 }
 
 a:hover{
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
-  color:black;
+  color: grey;
+
 }
 
 /* carousel */
@@ -99,7 +100,7 @@ body {
     display: grid;
     place-items: center;
     overflow: hidden;
-    background-color:#D97B29;
+    background-color:#db545a;
 }
 
 .slide-track {
